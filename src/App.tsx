@@ -1,12 +1,13 @@
-import React from "react";
+import React from 'react';
 
-import { Header } from "./components/Header/Header";
-import { Footer } from "./components/Footer/Footer";
+import './index.css';
+import { Header } from './components/Header/Header';
+import { Footer } from './components/Footer/Footer';
 
 export const App = () => (
-	<div>
-		<Header />
-		blah
-		<Footer />
-	</div>
+  <div>
+    <Header />
+    <div className="blah">blah</div>
+    <Footer />
+  </div>
 );
